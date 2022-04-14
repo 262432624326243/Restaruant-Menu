@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>VIEW DISHES PAGE</h1>
+<form action="ViewServlet" method="GET">
+    <tr>
+        <td><h3>Price range:</h3></td>
+    </tr>
+    <tr>
+        <td><label>
+            <input type="text" name="from" placeholder="from">
+        </label></td>
+        <td><label>
+            <input type="text" name="to" placeholder="to">
+        </label></td>
+    </tr>
+    </br>
+    <tr>
+        <td>Have a discount?</td>
+    </tr>
+    <tr>
+        <td>
+            <p><label>
+                <input name="discount" type="radio" value="Yes">
+            </label>Yes</p>
+            <p><label>
+                <input name="discount" type="radio" value="No">
+            </label>No</p>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Show"/></td>
+    </tr>
+</form>
+</body>
+</html>
